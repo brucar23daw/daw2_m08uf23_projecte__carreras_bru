@@ -6,8 +6,8 @@ use Laminas\Ldap\Ldap;
 $atributos_modificables = [
     'uidNumber',
     'gidNumber',
-    'Directori personal',
-    'Shell',
+    'homeDirectory',
+    'loginShell',   
     'cn',
     'sn',
     'givenName',
